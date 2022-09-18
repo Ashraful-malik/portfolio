@@ -3,9 +3,9 @@ export default {
   ssr: false,
   target: "static",
 
-  fallback: true,
-
   generate: {
+    fallback: true,
+
     // routes: ["/blog/first-post"],
   },
 
