@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "feather-icons": "^4.29.0",
+    "nuxt": "^2.12.2",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^1.9.0",
+    "@nuxtjs/color-mode": "^2.0.8",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "postcss": "^8.4.16",
+    "tailwindcss-dark-mode": "^1.1.4",
+    "webpack": "^4.46.0"
+  }
+}
