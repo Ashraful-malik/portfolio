@@ -1,7 +1,7 @@
 #  <a href="https://ashraful-malik.netlify.app/">Portfolio</a>
 
 
-<img src="" alt="portfolio image">
+<img src="https://github.com/Ashraful-malik/portfolio/blob/main/assets/images/my-portfolio.png?raw=true" alt="portfolio image">
 
 ## Build Setup
 
