@@ -56,7 +56,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+  // nuxt.config.ts
+
   image: {
-    provider: "ipx",
+    provider: process.env.VERCEL_ENV ? "vercel" : "ipx",
   },
 });
