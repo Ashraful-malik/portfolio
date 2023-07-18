@@ -76,11 +76,10 @@ useHead({
   <main id="main" class="article-main">
     <header v-if="data.article" class="article-header">
       <div class="img-cont h-80 mb-12">
-        <nuxt-img
-          :src="data.article.img"
+        <img
+          :src="`/blogImages/${data.article.img}`"
           :alt="data.article.title"
           class="rounded-2xl object-cover"
-          format="webp"
         />
       </div>
       <h1 class="heading">{{ data.article.title }}</h1>

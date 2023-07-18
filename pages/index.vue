@@ -44,5 +44,6 @@ export default {
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   display: none;
+  z-index: 1;
 }
 </style>

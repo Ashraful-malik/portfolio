@@ -1,7 +1,7 @@
 ---
 title: "Nuxt Content v2 is awesome!"
 description: "This is my first article!"
-img: "/blogImages/ashraful.jpeg"
+img: "ashraful.jpeg"
 tags: [Nuxt, Content, Learning, first]
 date: 2023-10-09
 ---
