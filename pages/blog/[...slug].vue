@@ -26,10 +26,48 @@ useHead({
   title: data.value.article.title,
   meta: [
     { name: "description", content: data.value.article.description },
+    { property: "og:site_name", content: "Ashraful malik" },
+    { hid: "og:type", property: "og:type", content: "website" },
     {
-      hid: "og:image",
+      property: "og:url",
+      content: "https://ashraful.online",
+    },
+    {
+      property: "og:title",
+      content: data.value.article.title,
+    },
+    {
+      property: "og:description",
+      content: data.value.article.title,
+    },
+    {
       property: "og:image",
-      content: `https://site.com/${data.value.article.img}`,
+      content: `https://ashraful.online/${data.value.article.img}`,
+    },
+    // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
+    { name: "twitter:site", content: "@debs_obrien" },
+    { name: "twitter:card", content: "summary_large_image" },
+    {
+      name: "twitter:url",
+      content: "https://ashraful.online",
+    },
+    {
+      name: "twitter:title",
+      content: data.value.article.title,
+    },
+    {
+      name: "twitter:description",
+      content: data.value.article.description,
+    },
+    {
+      name: "twitter:image",
+      content: `https://ashraful.online/${data.value.article.img}`,
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: `https://debbie.codes/${path}`,
     },
   ],
 });
