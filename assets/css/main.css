@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.icon {
+  @apply inline-flex w-6 h-6;
+}
+
+.icon.solid {
+  @apply fill-slate-500;
+}
+
+.icon.stroke {
+  @apply stroke-slate-500;
+}
+
+.cta {
+  @apply p-1.5 px-2 bg-slate-50 border border-slate-200 font-semibold rounded-lg;
+  @apply transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner;
+}
+
+.cta.w-icon {
+  @apply flex items-center gap-2 pr-3;
+}
+
+.img-cont img {
+  @apply h-full w-full object-cover;
+}
+
+.article-tags {
+  @apply flex gap-2 py-2;
+}
+
+.article-tags .tag {
+  @apply bg-slate-100 text-slate-700 text-sm p-2 py-1 rounded-md;
+  @apply transition-all !py-0.5 hover:-translate-y-0.5;
+}
+
+/* BLOG PAGES */
+.page-heading {
+  @apply p-12 bg-slate-50;
+}
+
+.page-heading > .wrapper {
+  @apply max-w-3xl m-auto;
+}
+
+.page-section {
+  @apply p-4 py-8 m-auto max-w-3xl;
+}
+
+.article-list {
+  @apply flex flex-col gap-6;
+}
+
+.article-item {
+  @apply pt-6 first-of-type:border-none border-t border-slate-200;
+}
+
+.article-item a {
+  @apply no-underline;
+}
+
+.article-item > * > .wrapper {
+  @apply flex items-start gap-4 lg:flex-row flex-col md:flex-row;
+}
+
+.custom_shadow {
+  box-shadow: 4px 4px 0px 4px #020617;
+}
+.primary_button {
+  border-radius: 5rem;
+  box-shadow: 4px 4px 0px 0px #020617;
+  border: 1px solid #020617;
+  color: #020617;
+  background: rgb(247, 133, 81);
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+.neo_background {
+  background-color: rgb(240, 247, 243);
+}
+.border-style-2 {
+  box-shadow: 10px 10px 0px 0px #ffffff, 15px 15px 0px 0px #000000,
+    5px 5px 15px 5px rgb(0, 0, 0, 0);
+}

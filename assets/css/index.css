@@ -1,0 +1,22 @@
+.home_heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: rgb(18, 18, 18);
+  line-height: 108.6%;
+  text-fill-color: transparent;
+  animation: text-bg-animation 5s infinite alternate;
+  -webkit-animation: text-bg-animation 5s infinite alternate;
+}
+
+@media (max-width: 400px) {
+  .home_heading {
+    font-size: 2rem;
+  }
+}
+.nuxt-content-highlight {
+  @apply relative;
+}
+.nuxt-content-highlight .filename {
+  @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
+}
