@@ -17,7 +17,7 @@
             >
               <nuxt-img
                 format="webp"
-                :src="`/projectImages/${webdev.img}`"
+                :src="webdev.img"
                 :alt="webdev.title"
                 :title="webdev.title"
                 class="w-full h-full hover_effect object-cover"
@@ -54,7 +54,7 @@ export default {
       webDevelopment: [
         {
           id: 1,
-          img: "mytailwind.png",
+          img: "/projectImages/mytailwind.png",
           link: "https://mytailwind.xyz/",
           title: "mytailwind",
           background: "#fbdb9c",
@@ -62,7 +62,7 @@ export default {
         },
         {
           id: 2,
-          img: "button.png",
+          img: "/projectImages/button.png",
           link: "https://uibuttons.netlify.app/",
           title: "css buttons",
           background: "#abd5fd",

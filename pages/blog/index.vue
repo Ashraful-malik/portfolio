@@ -56,7 +56,7 @@ useHead({
                 <div class="wrapper">
                   <div class="img-cont w-36 shrink-0">
                     <nuxt-img
-                      :src="`/blogImages/${article.img}`"
+                      :src="article.img"
                       :alt="article.title"
                       class="rounded-lg max-h-[8rem]"
                       format="webp"

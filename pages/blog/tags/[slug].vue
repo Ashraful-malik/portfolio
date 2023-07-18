@@ -53,10 +53,15 @@ useHead({
               <NuxtLink :to="article._path">
                 <div class="wrapper">
                   <div class="img-cont w-36">
-                    <img
-                      :src="`/blogImages/${article.img}`"
+                    <nuxt-img
+                      :src="article.img"
                       :alt="article.title"
                       class="rounded-lg max-h-[8rem]"
+                      format="webp"
+                      loading="lazy"
+                      quality="95"
+                      width="144px"
+                      height="120px"
                     />
                   </div>
                   <header>
