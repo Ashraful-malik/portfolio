@@ -7,9 +7,11 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
   ],
+
   colorMode: {
     classSuffix: "",
   },
+
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
@@ -53,5 +55,8 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+  image: {
+    provider: "ipx",
   },
 });
