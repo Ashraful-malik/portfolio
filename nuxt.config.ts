@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
   ],
+  components: true,
 
   runtimeConfig: {
     public: {

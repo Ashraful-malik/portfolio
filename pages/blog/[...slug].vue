@@ -77,7 +77,7 @@ useHead({
     <header v-if="data.article" class="article-header">
       <div class="img-cont h-80 mb-12">
         <img
-          :src="`/blogImages/${data.article.img}`"
+          :src="`${data.article.img}`"
           :alt="data.article.title"
           class="rounded-2xl object-cover"
         />
