@@ -45,7 +45,7 @@ useHead({
       content: `https://ashraful.online/${data.value.article.img}`,
     },
     // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
-    { name: "twitter:site", content: "@debs_obrien" },
+    { name: "twitter:site", content: "@ashraful__malik" },
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:url",
@@ -67,7 +67,7 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: `https://debbie.codes/${path}`,
+      href: `https://ashraful.online/${path}`,
     },
   ],
 });
