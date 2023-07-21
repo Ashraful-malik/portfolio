@@ -8,6 +8,11 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
   ],
 
+  runtimeConfig: {
+    public: {
+      googleAnalytic: process.env.GOOGLE_ANALYTIC_ID,
+    },
+  },
   colorMode: {
     classSuffix: "",
   },
@@ -33,6 +38,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      // fav icons
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         {

@@ -33,14 +33,14 @@ useHead({
     },
     {
       property: "og:image",
-      content: "",
+      content: "https://ashraful.online/twittercard.png",
     },
     // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
     { name: "twitter:site", content: "@Ashraful__malik" },
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:url",
-      content: "https://ashraful.online",
+      content: "https://ashraful.online/twittercard.png",
     },
     {
       name: "twitter:title",
@@ -53,7 +53,7 @@ useHead({
     },
     {
       name: "twitter:image",
-      content: "",
+      content: "https://ashraful.online/",
     },
   ],
 
