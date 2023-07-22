@@ -10,9 +10,8 @@ export default defineNuxtConfig({
   components: true,
 
   runtimeConfig: {
-    googleAnalytic: "G-ZZKXY8SF9S",
     public: {
-      hello: "this is hello",
+      googleAnalytic: "G-ZZKXY8SF9S",
     },
   },
   colorMode: {

@@ -8,7 +8,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     VueGtag,
     {
       config: {
-        id: `"${config.googleAnalytic}"`,
+        id: `"${config.public.googleAnalytic}"`,
       },
     },
     nuxtApp.$router

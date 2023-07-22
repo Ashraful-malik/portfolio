@@ -24,7 +24,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Ashraful Malik Portfolio",
+      content: "Ashraful Malik ",
     },
     {
       property: "og:description",
