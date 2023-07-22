@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
-    "vue-gtag-next": "^1.14.0",
+    "vue-gtag": "^2.0.1",
     "vue-gtm": "^3.5.0"
   }
 }

@@ -53,7 +53,7 @@ useHead({
     },
     {
       name: "twitter:image",
-      content: "https://ashraful.online/",
+      content: "https://ashraful.online/twittercard.png",
     },
   ],
 

@@ -10,8 +10,9 @@ export default defineNuxtConfig({
   components: true,
 
   runtimeConfig: {
+    googleAnalytic: "G-ZZKXY8SF9S",
     public: {
-      googleAnalytic: process.env.GOOGLE_ANALYTIC_ID,
+      hello: "this is hello",
     },
   },
   colorMode: {
@@ -64,8 +65,4 @@ export default defineNuxtConfig({
     },
   },
   // nuxt.config.ts
-
-  image: {
-    provider: process.env.VERCEL_ENV ? "vercel" : "ipx",
-  },
 });

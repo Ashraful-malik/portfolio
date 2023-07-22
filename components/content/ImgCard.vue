@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="p-6 border bg-slate-100 overflow-hidden">
+  <div class="overflow-hidden">
     <slot />
   </div>
 </template>

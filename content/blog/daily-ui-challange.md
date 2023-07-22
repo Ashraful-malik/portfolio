@@ -53,4 +53,11 @@ date: 2023-07-21
 
 ::
 
+## Day8
+
+::img-card
+![day one](/blogImages/dailyUi/day08.png)
+
+::
+
 ## Coming Soon.....
