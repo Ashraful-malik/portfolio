@@ -8,9 +8,13 @@ date: 2023-07-21
 
 ## Day1
 
+### Coffeehouse landing page
+
 ![day one](/blogImages/dailyUi/day01.png)
 
 ## Day2
+
+### Landing for you favorite TV show
 
 ::img-card
 
@@ -20,6 +24,8 @@ date: 2023-07-21
 
 ## Day3
 
+### Create account page
+
 ::img-card
 
 ![day one](/blogImages/dailyUi/day03.png)
@@ -28,11 +34,15 @@ date: 2023-07-21
 
 ## Day4
 
+### Profile setting page
+
 ::img-card
 ![day one](/blogImages/dailyUi/day04.png)
 ::
 
 ## Day5
+
+### Chatbot design
 
 ::img-card
 ![day one](/blogImages/dailyUi/day05.png)
@@ -41,12 +51,16 @@ date: 2023-07-21
 
 ## Day6
 
+### Hero section for an event management company
+
 ::img-card
 ![day one](/blogImages/dailyUi/day06.png)
 
 ::
 
 ## Day7
+
+### Landing page design for finance management tips
 
 ::img-card
 ![day one](/blogImages/dailyUi/day07.png)
@@ -55,8 +69,19 @@ date: 2023-07-21
 
 ## Day8
 
+### Delete confirmation dialog box
+
 ::img-card
 ![day one](/blogImages/dailyUi/day08.png)
+
+::
+
+## Day9
+
+### Search result page
+
+::img-card
+![day one](/blogImages/dailyUi/day09.png)
 
 ::
 
