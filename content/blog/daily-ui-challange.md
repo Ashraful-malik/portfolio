@@ -14,7 +14,7 @@ date: 2023-07-21
 
 ## Day2
 
-### Landing for you favorite TV show
+### Landing page for you favorite TV show
 
 ::img-card
 
@@ -42,7 +42,7 @@ date: 2023-07-21
 
 ## Day5
 
-### Chatbot design
+### Hero section for an event management company
 
 ::img-card
 ![day one](/blogImages/dailyUi/day05.png)
@@ -51,7 +51,7 @@ date: 2023-07-21
 
 ## Day6
 
-### Hero section for an event management company
+### Chatbot design
 
 ::img-card
 ![day one](/blogImages/dailyUi/day06.png)
