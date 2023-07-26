@@ -43,7 +43,7 @@
           <img
             src="@/assets/images/ashraful.jpeg"
             alt="Ashraful Malik"
-            class="rounded-2xl"
+            class="rounded-2xl w-full h-full"
           />
         </div>
       </section>

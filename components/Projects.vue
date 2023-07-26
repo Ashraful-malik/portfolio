@@ -19,7 +19,7 @@
                 :src="project.img"
                 :alt="project.title"
                 :title="project.title"
-                class="w-full h-full hover_effect object-cover"
+                class="w-full lg:h-96 h-full hover_effect object-cover"
               />
             </div>
             <div class="content mt-8 lg:max-w-sm max-w-xs">

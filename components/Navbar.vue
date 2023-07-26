@@ -59,10 +59,10 @@
                 class="block py-2 pr-4 pl-3 text-gray-900 rounded-full hover:text-accent font-medium"
                 >Work
               </nuxt-link>
-              <div class="dropdown-content">
-                <a href="#">Coded </a>
-                <a href="#">Webflow</a>
-              </div>
+              <ul class="dropdown-content">
+                <li><a href="#">Coded </a></li>
+                <li><a href="#">Webflow</a></li>
+              </ul>
             </div>
 
             <li>

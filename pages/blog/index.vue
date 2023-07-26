@@ -63,7 +63,7 @@ useHead({
                   </div>
                   <header>
                     <h1 class="text-2xl font-semibold">{{ article.title }}</h1>
-                    <p>{{ article.description }}</p>
+                    <p class="mt-2">{{ article.description }}</p>
 
                     <ul class="article-tags flex flex-wrap">
                       <li

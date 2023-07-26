@@ -52,7 +52,7 @@ useHead({
             >
               <NuxtLink :to="article._path">
                 <div class="wrapper">
-                  <div class="img-cont w-36">
+                  <div class="img-cont w-36 shrink-0">
                     <img
                       :src="`${article.img}`"
                       :alt="article.title"
@@ -61,7 +61,7 @@ useHead({
                   </div>
                   <header>
                     <h1 class="text-2xl font-semibold">{{ article.title }}</h1>
-                    <p>{{ article.description }}</p>
+                    <p class="mt-2">{{ article.description }}</p>
                     <ul class="article-tags">
                       <li class="tag" v-for="(tag, n) in article.tags" :key="n">
                         <NuxtLink :to="`/blog/tags/${tag}`" class="underline">

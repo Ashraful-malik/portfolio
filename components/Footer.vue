@@ -9,7 +9,7 @@
             <img
               src="@/assets/images/ashraful_logo.png"
               alt="Ashraful malik"
-              class="rounded-full"
+              class="rounded-full w-14 h-14"
             />
           </NuxtLink>
         </div>
