@@ -3,6 +3,11 @@ useHead({
   title: "Ashraful Malik",
   meta: [
     {
+      name: "google-site-verification",
+      content: "B0jEz4XSU68SfqzK9ToK5BUE9waB_R5cN1J--rAzvOc",
+    },
+
+    {
       hid: "description",
       name: "description",
       content:
