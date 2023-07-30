@@ -24,7 +24,6 @@
               <nuxt-img
                 class="hover_effect object-cover"
                 :src="project.img"
-                format="webp"
                 sizes="sm:100vw md:50vw lg:full"
               />
             </div>
