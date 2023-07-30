@@ -11,7 +11,7 @@
         <div
           class="project rounded-lg relative cursor-pointer p-4 border border-cardbg-dark mb-4 border-width"
         >
-          <a :href="project.link" target="_blank" rel="noopener">
+          <a :href="project.link" :target="project.target" rel="noopener">
             <div
               class="project_img h-auto md:h-auto lg:h-96 w-full overflow-hidden rounded-lg s bg-cover bg-center"
             >
@@ -22,7 +22,9 @@
                 class="w-full lg:h-96 h-full hover_effect object-cover"
               />
             </div>
+
             <div class="content mt-8 lg:max-w-sm max-w-xs">
+              <h1 class="mb-2 font-bold text-lg">{{ project.title }}</h1>
               <p class="text-gray-600 text-sm">{{ project.description }}</p>
             </div>
             <div class="flex">
@@ -51,11 +53,12 @@ export default {
           id: 1,
           img: "/projectImages/mytailwind.png",
           link: "https://mytailwind.xyz/",
-          title: "mytailwind",
           background: "#fbdb9c",
           tag: ["Vue js", "Nuxt Js", "Tailwind"],
+          title: "mytailwind.xyz",
           description:
             "Mytailwind is a website that allows you to easily copy and customize Tailwind components with just a few clicks. ",
+          target: "_blank",
         },
         {
           id: 2,
@@ -64,8 +67,19 @@ export default {
           title: "css buttons",
           background: "#abd5fd",
           tag: ["Vue js", "CSS"],
+          title: "uibuttons",
           description:
             "The UI button offers a variety of CSS buttons and hover effects",
+          target: "_blank",
+        },
+        {
+          id: 3,
+          img: "/projectImages/daily-ui-design.png",
+          link: "/blog/daily-ui-challange",
+          title: "30 Days Daily UI Challenge",
+          background: "#FFFFF",
+          tag: ["Web design", "ui", "ui design"],
+          description: "My 30 Days Daily UI Challenge Project Showcase",
         },
       ],
     };
