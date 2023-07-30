@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
   ],
   components: true,
+  image: {
+    domains: ["https://ashraful.online"],
+  },
 
   runtimeConfig: {
     public: {

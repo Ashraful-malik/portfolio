@@ -15,12 +15,13 @@
             <div
               class="project_img h-auto md:h-auto lg:h-96 w-full overflow-hidden rounded-lg s bg-cover bg-center"
             >
-              <img
+              <!-- <img
                 :src="project.img"
                 :alt="project.title"
                 :title="project.title"
                 class="w-full lg:h-96 h-full hover_effect object-cover"
-              />
+              /> -->
+              <nuxt-img class="nuxt-img-tag" :src="project.img" />
             </div>
             <div class="content mt-8 lg:max-w-sm max-w-xs">
               <p class="text-gray-600 text-sm">{{ project.description }}</p>
