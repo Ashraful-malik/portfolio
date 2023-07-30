@@ -21,7 +21,12 @@
                 :title="project.title"
                 class="w-full lg:h-96 h-full hover_effect object-cover"
               /> -->
-              <nuxt-img class="nuxt-img-tag" :src="project.img" />
+              <nuxt-img
+                class="hover_effect object-cover"
+                :src="project.img"
+                format="webp"
+                sizes="sm:100vw md:50vw lg:full"
+              />
             </div>
             <div class="content mt-8 lg:max-w-sm max-w-xs">
               <p class="text-gray-600 text-sm">{{ project.description }}</p>
