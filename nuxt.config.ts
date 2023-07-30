@@ -1,13 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // devtools: { enabled: true }
-  ssr: true,
-  modules: [
-    "@nuxt/content",
-    "@nuxtjs/tailwindcss",
-    "@nuxt/image",
-    "@nuxtjs/color-mode",
-  ],
+  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   components: true,
   image: {
     domains: ["https://ashraful.online"],

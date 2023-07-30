@@ -15,16 +15,11 @@
             <div
               class="project_img h-auto md:h-auto lg:h-96 w-full overflow-hidden rounded-lg s bg-cover bg-center"
             >
-              <!-- <img
+              <img
                 :src="project.img"
                 :alt="project.title"
                 :title="project.title"
                 class="w-full lg:h-96 h-full hover_effect object-cover"
-              /> -->
-              <nuxt-img
-                class="hover_effect object-cover"
-                :src="project.img"
-                sizes="sm:100vw md:50vw lg:full"
               />
             </div>
             <div class="content mt-8 lg:max-w-sm max-w-xs">
