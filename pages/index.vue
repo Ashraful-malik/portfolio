@@ -1,49 +1,44 @@
 <template>
   <div>
-    <div @mousemove="mouseMove" class="relative md:">
-      <div class="cursor" id="cursor"></div>
-
-      <Herosection />
+    <div class="w-full neo_background">
+      <!-- <div class="cursor" id="cursor"></div> -->
+      <div class="flex justify-center h-full max-w-6xl m-auto" id="home">
+        <div
+          class="flex justify-center flex-col max-w-3xl lg:py-36 p-2 lg:p-0 py-36"
+        >
+          <header>
+            <h1 class="home_heading">
+              Hello, I'm Ashraful, a Designer and Web Developer based in India.
+            </h1>
+          </header>
+          <div class="mt-8">
+            <a class="float-left" href="/#project">
+              <button
+                class="flex text-white px-10 py-3 items-center font-medium text-sm lg:text-sm text-center primary_button"
+              >
+                Work
+                <div class="pl-2">
+                  <ArrowLongRightIcon class="icon" />
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- Projects Section-->
+    <Projects />
+    <!-- About Section -->
+    <About />
+    <!-- Contact Section -->
+    <Contact />
   </div>
 </template>
 
-<script>
-// import feather from "feather-icons";
-export default {
-  name: "IndexPage",
-
-  data() {
-    return {
-      cursor: "",
-    };
-  },
-
-  mounted() {
-    // feather.replace();
-
-    const cursors = document.getElementById("cursor");
-    this.cursor = cursors;
-  },
-  methods: {
-    mouseMove(e) {
-      this.cursor.style.left = e.pageX - 50 + "px";
-      this.cursor.style.top = e.pageY - 50 + "px";
-      this.cursor.style.display = "block";
-    },
-  },
-};
+<script setup>
+import { ArrowLongRightIcon } from "@heroicons/vue/24/solid";
 </script>
+
 <style scoped>
-.cursor {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: rgb(20, 20, 20);
-  border-radius: 50%;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-out;
-  display: none;
-  z-index: 1;
-}
+@import "/assets/css/index.css";
 </style>

@@ -15,7 +15,8 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18.16.19",
-    "nuxt": "^3.6.2"
+    "nuxt": "^3.6.2",
+    "nuxt-gtag": "^0.5.7"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",

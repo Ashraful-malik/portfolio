@@ -1,17 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // devtools: { enabled: true }
-  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
-  components: true,
-  image: {
-    domains: ["https://ashraful.online"],
-  },
-
-  runtimeConfig: {
-    public: {
-      googleAnalytic: "G-ZZKXY8SF9S",
+  // ssr:true,
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "nuxt-gtag",
+  ],
+  gtag: {
+    id: process.env.GOOGLE_ANALYTIC_ID,
+    config: {
+      page_title: "My Custom Page Title",
     },
   },
+
+  components: true,
+
   colorMode: {
     classSuffix: "",
   },
