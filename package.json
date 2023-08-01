@@ -19,8 +19,6 @@
     "nuxt-gtag": "^0.5.7"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.18",
-    "vue-gtag": "^2.0.1",
-    "vue-gtm": "^3.5.0"
+    "@heroicons/vue": "^2.0.18"
   }
 }

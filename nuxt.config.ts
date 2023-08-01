@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   gtag: {
     id: process.env.GOOGLE_ANALYTIC_ID,
     config: {
-      page_title: "My Custom Page Title",
+      page_title: "ashraful.online",
     },
   },
 
@@ -42,6 +42,12 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      meta: [
+        {
+          name: "google-site-verification",
+          content: "B0jEz4XSU68SfqzK9ToK5BUE9waB_R5cN1J--rAzvOc",
+        },
+      ],
       // fav icons
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
