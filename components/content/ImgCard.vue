@@ -2,7 +2,7 @@
 defineProps({
   description: {
     type: String,
-    default: "Default description",
+    default: "daily ui images",
   },
 });
 </script>

@@ -10,7 +10,7 @@ date: 2023-07-21
 
 ### Coffeehouse landing page
 
-![day one](/blogImages/dailyUi/day01.png)
+![Coffeehouse landing page](/blogImages/dailyUi/day01.png "coffeehouse section")
 
 ## Day2
 
@@ -18,7 +18,7 @@ date: 2023-07-21
 
 ::img-card
 
-![day two](/blogImages/dailyUi/day02.png)
+![favorite tv show landing page](/blogImages/dailyUi/day02.png "favorite tv show page design")
 
 ::
 
@@ -28,7 +28,7 @@ date: 2023-07-21
 
 ::img-card
 
-![day three](/blogImages/dailyUi/day03.png)
+![signUp page](/blogImages/dailyUi/day03.png "create account page")
 
 ::
 
@@ -37,7 +37,7 @@ date: 2023-07-21
 ### Profile setting page
 
 ::img-card
-![day four](/blogImages/dailyUi/day04.png)
+![profile setting](/blogImages/dailyUi/day04.png "profile setting page")
 ::
 
 ## Day 5
@@ -45,7 +45,7 @@ date: 2023-07-21
 ### Hero section for an event management company
 
 ::img-card
-![day five](/blogImages/dailyUi/day05.png)
+![event management company hero section](/blogImages/dailyUi/day05.png "event management landing page")
 
 ::
 
@@ -54,7 +54,7 @@ date: 2023-07-21
 ### Chatbot design
 
 ::img-card
-![day six](/blogImages/dailyUi/day06.png)
+![chatbot design](/blogImages/dailyUi/day06.png "chatbot design")
 
 ::
 
@@ -63,7 +63,7 @@ date: 2023-07-21
 ### Landing page design for finance management tips
 
 ::img-card
-![day seven](/blogImages/dailyUi/day07.png)
+![Landing page design for finance management tips page](/blogImages/dailyUi/day07.png "finance management landing page")
 
 ::
 
@@ -72,7 +72,7 @@ date: 2023-07-21
 ### Delete confirmation dialog box
 
 ::img-card
-![day eight](/blogImages/dailyUi/day08.png)
+![delete dialog box](/blogImages/dailyUi/day08.png "delete confirmation dialog box")
 
 ::
 
@@ -81,7 +81,7 @@ date: 2023-07-21
 ### Search result page
 
 ::img-card
-![day nine](/blogImages/dailyUi/day09.png)
+![search result view page](/blogImages/dailyUi/day09.png "search result view")
 
 ::
 
@@ -90,7 +90,7 @@ date: 2023-07-21
 ### FAQs section
 
 ::img-card
-![day ten](/blogImages/dailyUi/day10.png)
+![faqs section](/blogImages/dailyUi/day10.png "FAQs section")
 
 ::
 
@@ -99,7 +99,7 @@ date: 2023-07-21
 ### SaaS Pricing Page
 
 ::img-card
-![day eleven](/blogImages/dailyUi/day11.png)
+![pricing page](/blogImages/dailyUi/day11.png "Sass pricing plans")
 
 ::
 
@@ -108,7 +108,34 @@ date: 2023-07-21
 ### Testimonials Slider
 
 ::img-card
-![day twelve](/blogImages/dailyUi/day12.png)
+![testimonials slider](/blogImages/dailyUi/day12.png "testimonials slider")
+
+::
+
+## Day 13
+
+### Contact page
+
+::img-card
+![Contact page](/blogImages/dailyUi/day13.png "contact page")
+
+::
+
+## Day 14
+
+### Blog page
+
+::img-card
+![blog page](/blogImages/dailyUi/day14.png "blog page")
+
+::
+
+## Day 15
+
+### About page
+
+::img-card
+![about section ](/blogImages/dailyUi/day15.png "about page")
 
 ::
 
