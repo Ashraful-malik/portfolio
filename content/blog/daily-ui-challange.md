@@ -2,7 +2,7 @@
 title: "My 30 Days Daily UI Challenge Project Showcase"
 description: "Join me on an exciting 30-day design journey as I take on the Daily UI Challenge. Over the past week, I am immersing myself in exploring and crafting different UI designs to elevate my creative skills. In this blog, I am sharing my 7-day UI designs. Stay tuned for daily updates and feel free to share your thoughts on this."
 img: "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
-tags: [Ui challenge, ui, 30days UI, Ui design]
+tags: [UIChallenge, UI, 30daysUI, UIUXDesign]
 date: 2023-07-21
 ---
 

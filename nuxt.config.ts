@@ -23,6 +23,7 @@ export default defineNuxtConfig({
 
   content: {
     // https://content.nuxtjs.org/api/configuration
+
     highlight: {
       theme: {
         // Default theme (same as single string)
@@ -32,6 +33,7 @@ export default defineNuxtConfig({
       },
     },
     markdown: {
+      anchorLinks: false,
       toc: {
         depth: 5,
         searchDepth: 5,

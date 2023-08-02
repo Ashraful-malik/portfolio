@@ -82,6 +82,7 @@ useHead({
           class="rounded-2xl object-cover"
         />
       </div>
+
       <h1 class="heading">{{ data.article.title }}</h1>
       <p class="supporting">{{ data.article.description }}</p>
       <Date :date="data.article.date" />
