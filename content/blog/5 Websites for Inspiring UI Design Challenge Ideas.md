@@ -8,9 +8,7 @@ date: 2023-08-02
 
 Hey there! As a UI designer, I love finding new ideas and inspiration for my designs. Today, I want to share my favorite websites that always fuel my creativity and help me create amazing user interfaces. These websites are like magic boxes of inspiration, and they've been a game-changer in my design journey. Let's explore together!
 
-## [Designercize ](https://designercize.com/)-AFun Design Adventure Every Day
-
-to visit GeeksForGeeks website.
+## [Designercize ](https://designercize.com/)-A Fun Design Adventure Every Day
 
 Designercize is my daily go-to for exciting UI design challenges. Each day, I get a new prompt that challenges my imagination and skills. What's even better is the supportive community that gives me helpful feedback, making me a better designer with each challenge.
 

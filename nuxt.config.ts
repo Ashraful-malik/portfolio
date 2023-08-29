@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // devtools: { enabled: true }
-  // ssr:true,
+  ssr: true,
   modules: [
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
@@ -44,12 +43,6 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      meta: [
-        {
-          name: "google-site-verification",
-          content: "B0jEz4XSU68SfqzK9ToK5BUE9waB_R5cN1J--rAzvOc",
-        },
-      ],
       // fav icons
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },

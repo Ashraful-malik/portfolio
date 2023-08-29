@@ -32,7 +32,7 @@ this is what actually in the code.
 To resolve this issue, we simply need to disable anchorLinks in your **\*nuxt.config.ts** file.
 
 ```js
-export default {
+export default defineNuxtConfig({
   // Other Nuxt config options...
 
   content: {
@@ -40,7 +40,7 @@ export default {
       anchorLinks: false,
     },
   },
-};
+});
 ```
 
 check out the official documentation: [https://content.nuxtjs.org/api/configuration/#anchorlinks](https://content.nuxtjs.org/api/configuration/#anchorlinks)

@@ -10,7 +10,7 @@ date: 2023-07-21
 
 ### Coffeehouse landing page
 
-![Coffeehouse landing page](/blogImages/dailyUi/day01.png "coffeehouse section")
+![Coffeehouse landing page](/blogImages/dailyUi//day01.png "coffeehouse section")
 
 ## Day2
 
@@ -18,7 +18,7 @@ date: 2023-07-21
 
 ::img-card
 
-![favorite tv show landing page](/blogImages/dailyUi/day02.png "favorite tv show page design")
+![favorite tv show landing page](/blogImages/dailyUi//day02.png "favorite tv show page design")
 
 ::
 
@@ -28,7 +28,7 @@ date: 2023-07-21
 
 ::img-card
 
-![signUp page](/blogImages/dailyUi/day03.png "create account page")
+![signUp page](/blogImages/dailyUi//day03.png "create account page")
 
 ::
 
@@ -37,7 +37,7 @@ date: 2023-07-21
 ### Profile setting page
 
 ::img-card
-![profile setting](/blogImages/dailyUi/day04.png "profile setting page")
+![profile setting](/blogImages/dailyUi//day04.png "profile setting page")
 ::
 
 ## Day 5
@@ -45,7 +45,7 @@ date: 2023-07-21
 ### Hero section for an event management company
 
 ::img-card
-![event management company hero section](/blogImages/dailyUi/day05.png "event management landing page")
+![event management company hero section](/blogImages/dailyUi//day05.png "event management landing page")
 
 ::
 
@@ -54,7 +54,7 @@ date: 2023-07-21
 ### Chatbot design
 
 ::img-card
-![chatbot design](/blogImages/dailyUi/day06.png "chatbot design")
+![chatbot design](/blogImages/dailyUi//day06.png "chatbot design")
 
 ::
 
@@ -63,7 +63,7 @@ date: 2023-07-21
 ### Landing page design for finance management tips
 
 ::img-card
-![Landing page design for finance management tips page](/blogImages/dailyUi/day07.png "finance management landing page")
+![Landing page design for finance management tips page](/blogImages/dailyUi//day07.png "finance management landing page")
 
 ::
 
@@ -72,7 +72,7 @@ date: 2023-07-21
 ### Delete confirmation dialog box
 
 ::img-card
-![delete dialog box](/blogImages/dailyUi/day08.png "delete confirmation dialog box")
+![delete dialog box](/blogImages/dailyUi//day08.png "delete confirmation dialog box")
 
 ::
 
@@ -81,7 +81,7 @@ date: 2023-07-21
 ### Search result page
 
 ::img-card
-![search result view page](/blogImages/dailyUi/day09.png "search result view")
+![search result view page](/blogImages/dailyUi//day09.png "search result view")
 
 ::
 
@@ -99,7 +99,7 @@ date: 2023-07-21
 ### SaaS Pricing Page
 
 ::img-card
-![pricing page](/blogImages/dailyUi/day11.png "Sass pricing plans")
+![pricing page](/blogImages/dailyUi//day11.png "Sass pricing plans")
 
 ::
 
@@ -108,7 +108,7 @@ date: 2023-07-21
 ### Testimonials Slider
 
 ::img-card
-![testimonials slider](/blogImages/dailyUi/day12.png "testimonials slider")
+![testimonials slider](/blogImages/dailyUi//day12.png "testimonials slider")
 
 ::
 
@@ -117,7 +117,7 @@ date: 2023-07-21
 ### Contact page
 
 ::img-card
-![Contact page](/blogImages/dailyUi/day13.png "contact page")
+![Contact page](/blogImages/dailyUi//day13.png "contact page")
 
 ::
 
@@ -126,7 +126,7 @@ date: 2023-07-21
 ### Blog page
 
 ::img-card
-![blog page](/blogImages/dailyUi/day14.png "blog page")
+![blog page](/blogImages/dailyUi//day14.png "blog page")
 
 ::
 
@@ -135,8 +135,130 @@ date: 2023-07-21
 ### About page
 
 ::img-card
-![about section ](/blogImages/dailyUi/day15.png "about page")
+![about section ](/blogImages/dailyUi//day15.png "about page")
+
+## Day 16
+
+### Game score ui
+
+::img-card
+![Game score ui ](/blogImages/dailyUi//game_score_16.webp "Game score ui")
+
+## Day 17
+
+### Sidebar UI
+
+::img-card
+![Sidebar UI](/blogImages/dailyUi//sidebars_17.webp "Sidebar UI")
+
+## Day 18
+
+### Landing page
+
+::img-card
+![Landing page ](/blogImages/dailyUi//book_landing_page_18.webp "Landing page")
+::
+
+## Day 19
+
+### Course App ui
+
+::img-card
+![Course App ui ](/blogImages/dailyUi//course_app_19.webp "Course App ui")
+::
+
+## Day 20
+
+### Features section
+
+::img-card
+![Course App ui ](/blogImages/dailyUi//features_section_20.webp "features section ui")
+::
+
+## Day 21
+
+### hero section
+
+::img-card
+![Features section ](/blogImages/dailyUi//hero_section_21.webp "hero section")
+::
+
+## Day 22
+
+### landing page ui
+
+::img-card
+![Hero section ui ](/blogImages/dailyUi//travel_page_22.webp "landing page ui")
+::
+
+## Day 23
+
+### File upload UI
+
+::img-card
+![File upload UI ](/blogImages/dailyUi//file_uploade_ui_23.webp "File upload UI")
 
 ::
 
-## Coming Soon.....
+## Day 24
+
+### 404 page
+
+::img-card
+![404 page ](/blogImages/dailyUi//404_page_24.webp "404 page")
+
+::
+
+## Day 25
+
+### Footer design
+
+::img-card
+![404 page ](/blogImages/dailyUi//footer_25.webp "footer ui design")
+
+::
+
+## Day 26
+
+### contact page
+
+::img-card
+![404 page ](/blogImages/dailyUi//contact_page_26.webp "contact page")
+
+::
+
+## Day 27
+
+### landing page design
+
+::img-card
+![404 page ](/blogImages/dailyUi//landing_page_27.webp "landing page")
+
+::
+
+## Day 28
+
+### Portfolio landing page
+
+::img-card
+![404 page ](/blogImages/dailyUi//portfolio_landing_page_28.webp "portfolio landing page")
+
+::
+
+## Day 29
+
+### Hero section design
+
+::img-card
+![404 page ](/blogImages/dailyUi//hero_section_29.webp "hero section")
+
+::
+
+## Day 30
+
+### Travel landing page
+
+::img-card
+![404 page ](/blogImages/dailyUi//travel_landing_page_30.webp "travel landing page")
+
+::
