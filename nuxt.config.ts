@@ -9,10 +9,10 @@ export default defineNuxtConfig({
     "nuxt-gtag",
     "@nuxt/image",
   ],
-  image: {
-    format: ["webp"],
-    // dir: "assets/images", // The directory where your images are stored
-  },
+  // image: {
+  //   // format: ["webp"],
+  //   // dir: "assets/images", // The directory where your images are stored
+  // },
 
   gtag: {
     id: process.env.GOOGLE_ANALYTIC_ID,
