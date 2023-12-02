@@ -1,12 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
+  // devtools: { enabled: true },
   modules: [
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "nuxt-gtag",
+    "@nuxt/image",
   ],
+  image: {
+    format: ["webp"],
+    // dir: "assets/images", // The directory where your images are stored
+  },
+
   gtag: {
     id: process.env.GOOGLE_ANALYTIC_ID,
     config: {
@@ -44,6 +51,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       // fav icons
+      htmlAttrs: {
+        lang: "en",
+      },
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         {

@@ -12,7 +12,7 @@ export default {
 
 <template>
   <p
-    class="tracking-widest text-base title-font font-medium text-gray-500 my-2 block"
+    class="tracking-widest text-base title-font font-medium text-gray-100 my-2 block"
   >
     {{ formatDate(date) }}
   </p>

@@ -6,6 +6,7 @@ useHead({
       name: "google-site-verification",
       content: "B0jEz4XSU68SfqzK9ToK5BUE9waB_R5cN1J--rAzvOc",
     },
+    { name: "color-scheme", content: "dark light " },
     {
       hid: "description",
       name: "description",
@@ -52,8 +53,7 @@ useHead({
     },
     {
       name: "twitter:description",
-      content:
-        "Hi! 👋 I'm Ashraful Malik, a UI designer, Webflow developer, and web developer.",
+      content: "Hi! 👋 I'm Ashraful Malik, a UI designer and web developer.",
     },
     {
       name: "twitter:image",
@@ -65,21 +65,25 @@ useHead({
     {
       rel: "preconnect",
       href: "https://fonts.googleapis.com",
+    },
+    {
+      rel: "preconnect",
+      href: "https://fonts.gstatic.com",
       crossorigin: "",
     },
 
     {
       rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+      href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap",
       crossorigin: "",
     },
   ],
 });
 </script>
 <template>
-  <div>
-    <Navbar />
-    <NuxtPage />
-    <Footer />
+  <div class="bg-bkg">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>

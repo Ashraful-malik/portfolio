@@ -55,6 +55,6 @@ const articleTags = [...new Set(flatten(data.value, "tags"))];
 <style scoped>
 /* ... */
 .tag-list {
-  @apply flex lg:flex-row flex-col sm:flex-row  items-center gap-2 p-2 border  rounded-lg border-slate-200;
+  @apply flex lg:flex-row flex-col sm:flex-row  items-center gap-2 p-2 border  rounded-lg border-gray-600;
 }
 </style>

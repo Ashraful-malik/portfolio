@@ -2,28 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-bkg: 30 30 30;
+    --color-content: 224 224 224;
+    /* ... */
+  }
+}
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1.2px currentColor;
+    text-stroke: 1.2px currentColor;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+  }
+}
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14;
 }
 
+/* tag  */
 .icon {
   @apply inline-flex w-6 h-6;
 }
 
 .icon.solid {
-  @apply fill-slate-500;
+  @apply fill-indigo-300;
 }
 
 .icon.stroke {
-  @apply stroke-slate-500;
+  /* @apply stroke-red-500; */
+  @apply text-gray-50;
 }
 
 .cta {
-  @apply p-1.5 px-2 bg-slate-50 border border-slate-200 font-semibold rounded-lg;
+  /* this is tag cta */
+  @apply p-1.5 px-2 bg-gray-700 text-gray-80 border border-gray-500 font-semibold rounded-lg;
   @apply transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner;
 }
 
@@ -40,13 +67,13 @@ body {
 }
 
 .article-tags .tag {
-  @apply bg-slate-100 text-slate-700 text-sm p-2 py-1 rounded-md;
+  @apply bg-gray-700 text-gray-80 text-sm p-2 py-1 rounded-md;
   @apply transition-all !py-0.5 hover:-translate-y-0.5;
 }
 
 /* BLOG PAGES */
 .page-heading {
-  @apply p-12 bg-slate-50;
+  @apply p-12 bg-gray-700;
 }
 
 .page-heading > .wrapper {
@@ -57,12 +84,14 @@ body {
   @apply p-4 py-8 m-auto max-w-3xl;
 }
 
+/* individual article item page */
+
 .article-list {
   @apply flex flex-col gap-6;
 }
 
 .article-item {
-  @apply pt-6 first-of-type:border-none border-t border-slate-200;
+  @apply pt-6 first-of-type:border-none border-t border-gray-600;
 }
 
 .article-item a {
@@ -71,26 +100,4 @@ body {
 
 .article-item > * > .wrapper {
   @apply flex items-start gap-4 lg:flex-row flex-col md:flex-row;
-}
-
-.custom_shadow {
-  box-shadow: 4px 4px 0px 4px #020617;
-}
-.primary_button {
-  border-radius: 5rem;
-  box-shadow: 4px 4px 0px 0px #020617;
-  border: 1px solid #020617;
-  color: #020617;
-  background: rgb(247, 133, 81);
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
-  -ms-border-radius: 5rem;
-  -o-border-radius: 5rem;
-}
-.neo_background {
-  background-color: rgb(240, 247, 243);
-}
-.border-style-2 {
-  box-shadow: 10px 10px 0px 0px #ffffff, 15px 15px 0px 0px #000000,
-    5px 5px 15px 5px rgb(0, 0, 0, 0);
 }

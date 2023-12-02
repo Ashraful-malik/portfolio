@@ -87,7 +87,11 @@ useHead({
       <p class="supporting">{{ data.article.description }}</p>
       <Date :date="data.article.date" />
       <ul class="article-tags">
-        <li class="tag" v-for="(tag, n) in data.article.tags" :key="n">
+        <li
+          class="tag font-medium"
+          v-for="(tag, n) in data.article.tags"
+          :key="n"
+        >
           {{ tag }}
         </li>
       </ul>
@@ -127,11 +131,11 @@ useHead({
 }
 
 .article-header .heading {
-  @apply font-extrabold text-5xl;
+  @apply font-bold text-2xl text-gray-50 leading-none;
 }
 
 .article-header .supporting {
-  @apply font-medium text-lg mt-4;
+  @apply text-base mt-4 text-gray-70;
 }
 
 .article-section {
@@ -147,6 +151,6 @@ useHead({
 }
 
 .article {
-  @apply col-span-full md:col-span-6 md:col-start-1 md:row-start-1 prose w-full p-4 max-w-3xl m-auto;
+  @apply col-span-full md:col-span-6 md:col-start-1 md:row-start-1 prose dark:prose-invert prose-lg prose-stone w-full p-4 max-w-3xl m-auto;
 }
 </style>

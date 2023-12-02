@@ -19,8 +19,8 @@ useHead({
 <template>
   <main>
     <header class="page-heading">
-      <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">All articles with "{{ slug }}"</h1>
+      <div class="wrapper text-gray-50">
+        <h1 class="text-5xl font-bold">All articles with "{{ slug }}"</h1>
         <p class="font-medium text-lg">
           Here's a list of all my great articles
         </p>
@@ -52,17 +52,21 @@ useHead({
             >
               <NuxtLink :to="article._path">
                 <div class="wrapper">
-                  <div class="img-cont w-36 shrink-0">
+                  <!-- <div class="img-cont w-36 shrink-0">
                     <img
                       :src="`${article.img}`"
                       :alt="article.title"
                       class="rounded-lg max-h-[8rem]"
                     />
-                  </div>
+                  </div> -->
                   <header>
-                    <h1 class="text-2xl font-semibold">{{ article.title }}</h1>
-                    <p class="mt-2">{{ article.description }}</p>
-                    <ul class="article-tags">
+                    <h1
+                      class="text-xl font-semibold text-gray-50 leading-normal"
+                    >
+                      {{ article.title }}
+                    </h1>
+                    <p class="mt-2 text-gray-70">{{ article.description }}</p>
+                    <ul class="article-tags mt-4">
                       <li class="tag" v-for="(tag, n) in article.tags" :key="n">
                         <NuxtLink :to="`/blog/tags/${tag}`" class="underline">
                           {{ tag }}

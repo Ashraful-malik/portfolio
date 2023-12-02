@@ -1,59 +1,93 @@
 <template>
-  <div class="w-full h-auto lg:h-screen lg:mt-72 neo_background mt-32">
-    <div class="max-w-5xl m-auto py-32 p-2" id="about">
-      <section
-        class="flex items-center justify-between flex-wrap flex-col-reverse lg:flex-row"
-      >
-        <div class="about_content p-3 lg:p-0 mt-8 lg:mt-0">
-          <h1
-            class="lg:text-4xl text-3xl font-semibold lg:mb-6 mb-3 text-gray-900"
-          >
-            About Me
-          </h1>
-
-          <div class="text-gray-900 max-w-lg leading-relaxed">
-            <article class="lg:m-0 lg:p-0 lg:text-base text-sm">
-              Hello👋, I'm
-              <strong> Ashraful Malik, a web developer and web designer</strong
-              >.I specialize in creating websites that not only look great but
-              also function smoothly . With expertise in both
-              <strong> Design and web development.</strong>
-            </article>
-            <p>
-              Read
-              <strong>
-                <nuxt-link to="/about" class="underline hover:text-blue-500">
-                  more about me
-                </nuxt-link>
-              </strong>
+  <div class="w-full">
+    <div class="w-4/5 m-auto py-40" id="about">
+      <section class="grid grid-cols-3 gap-6 items-start">
+        <div class="img lg:sticky top-20 lg:col-auto col-span-3">
+          <img
+            src="@/assets/images/about_ashraful.png "
+            alt="Ashraful Malik"
+            class="rounded-xl"
+          />
+          <div class="name lg:pt-8">
+            <h1 class="text-base font-bold text-gray-80">Ashraful Malik</h1>
+            <p class="font-[14px] text-gray-100">
+              UI designer and front-end developer
             </p>
           </div>
-
-          <div class="mt-5 text-center sm:text-left sm:mb-0">
-            <a href="/#contact">
-              <button class="text-sm lg:py-3 py-2 px-4 lg:px-6 primary_button">
-                Contact
-              </button>
-            </a>
-          </div>
         </div>
-        <div
-          class="image rounded-2xl p-2 border border-cardbg-dark border-style-2"
-        >
-          <img
-            src="@/assets/images/ashraful.jpeg"
-            alt="Ashraful Malik"
-            class="rounded-2xl w-full h-full"
-          />
+        <div class="content lg:col-span-2 col-span-3">
+          <div class="about-me text-lg max-w-xl gradient-text">
+            <p>
+              {{ aboutMe }}
+            </p>
+          </div>
+          <div class="skills mt-8 max-w-2xl">
+            <div class="skill">
+              <div v-for="(skill, index) in mySkills" :key="index" class="mt-8">
+                <h1 class="text-lg font-semibold text-gray-40">
+                  {{ skill.skillName }}
+                </h1>
+                <p class="mt-3 text-base text-gray-80">
+                  {{ skill.aboutskill }}
+                </p>
+              </div>
+            </div>
+
+            <!-- my tec stacks -->
+            <div class="stacks mt-8">
+              <div class="title text-lg font-semibold text-gray-40">
+                My stacks
+              </div>
+              <div class="img flex mt-3 items-center gap-8 flex-wrap">
+                <div
+                  v-for="stack in tecStacks"
+                  :key="stack.id"
+                  class="w-16 h-16 bg-gray-700 p-2 rounded-md group cursor-pointer"
+                >
+                  <img
+                    :src="stack.img"
+                    alt="stack img"
+                    class="grayscale-0 group-hover:grayscale"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
   </div>
 </template>
 
-<script></script>
+<script setup>
+const tecStacks = ref([
+  { id: 1, img: "/skillsImg/html5.svg" },
+  { id: 2, img: "/skillsImg/css3.svg" },
+  { id: 3, img: "/skillsImg/javascript.svg" },
+  { id: 4, img: "/skillsImg/nuxt.svg" },
+  { id: 5, img: "/skillsImg/tailwind.svg" },
+  { id: 6, img: "/skillsImg/figma.svg" },
+]);
+const aboutMe = ref(
+  "Hi! 👋 I'm Ashraful Malik,UI designer and web developer. I love crafting beautiful and functional digital experiences that leave a lasting impression."
+);
+const mySkills = ref([
+  {
+    skillName: "UI Design",
+    aboutskill:
+      "I create visually appealing and user-friendly designs. I believe that a well-designed interface can make a big difference in how people interact with websites.",
+  },
+  {
+    skillName: "Web Development",
+    aboutskill:
+      "I have expertise in HTML, CSS, JavaScript, and other web technologies. I develop responsive websites that work well on all devices and browsers. Let's work together to bring your ideas to life and create an exceptional online presence.",
+  },
+]);
+</script>
 
 <style scoped>
+@import url(../assets/css/index.css);
+
 img {
   width: 17rem;
 }

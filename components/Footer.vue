@@ -1,103 +1,70 @@
 <template>
   <div>
-    <div class="h-auto lg:py-20 border-t border-black relative">
+    <div class="h-auto py-20 relative">
       <div
-        class="w-auto lg:max-w-6xl m-auto flex justify-center lg:justify-between items-center lg:items-start flex-wrap pt-16 flex-col lg:flex-row"
+        class="w-11/12 bg-gray-700 p-10 rounded-2xl m-auto flex items-start flex-wrap gap-12 justify-between relative"
       >
-        <div class="logo w-16">
-          <NuxtLink to="/">
+        <div class="img">
+          <nuxt-link to="/" class="logo">
             <img
               src="@/assets/images/ashraful_logo.png"
-              alt="Ashraful malik"
-              class="rounded-full w-14 h-14"
+              class="w-16 rounded-full"
+              alt="logo"
             />
-          </NuxtLink>
-        </div>
-        <div class="page_links">
-          <p
-            class="text-base text-gray-900 mb-4 font-semibold mt-11 lg:mt-0 text-center"
-          >
-            Page links
-          </p>
-          <ul class="flex flex-col justify-center text-center lg:text-left">
-            <li class="mb-4 text-gray-700 hover:text-accent">
-              <nuxt-link to="/#home"> Home</nuxt-link>
-            </li>
-            <li class="mb-4 text-gray-700 hover:text-accent">
-              <nuxt-link to="/#project">Work</nuxt-link>
-            </li>
-
-            <li class="mb-4 text-gray-700 hover:text-accent">
-              <nuxt-link to="/blog" aria-current="page">Blog </nuxt-link>
-            </li>
-
-            <li class="mb-4 text-gray-700 hover:text-accent">
-              <nuxt-link to="/#about"> About </nuxt-link>
-            </li>
-
-            <li class="mb-4 text-gray-700 hover:text-accent">
-              <nuxt-link to="/#contact"> Contact </nuxt-link>
-            </li>
-          </ul>
-        </div>
-        <div class="contact mt-9 lg:mt-0">
-          <p
-            class="text-base text-gray-900 mb-4 font-semibold text-center lg:text-left"
-          >
-            Email
-          </p>
-          <nuxt-link
-            to="mailto: ashrafulmalik71@gmail.com"
-            class="text-base text-gray-700 hover:text-accent"
-            >ashraful.inbox@gmail.com
           </nuxt-link>
         </div>
-        <div class="mb-8">
-          <p
-            class="text-base text-gray-900 mb-4 font-semibold pt-0 mr-4 mt-9 lg:mt-0"
-          >
-            Connect
-          </p>
-
-          <div class="flex mb-4 lg:mb-0 flex-col text-gray-700">
-            <div class="hover:text-accent mb-4">
+        <div class="page_link">
+          <p class="text-gray-70 font-semibold uppercase">Sitemap</p>
+          <div class="gap-2 mt-3 flex w-40 flex-wrap">
+            <div
+              class="link text-gray-80 mr-2"
+              v-for="(link, index) in pageLinks"
+              :key="index"
+            >
               <nuxt-link
-                to="https://www.instagram.com/uiwebbyte/"
-                target="_blank"
-                class="social_link"
-                ><p>Instagram</p>
-              </nuxt-link>
-            </div>
-            <div class="mr-4 hover:text-accent mb-4">
-              <nuxt-link
-                to="https://dribbble.com/Ashraful404"
-                target="_blank"
-                class="social_link"
-                ><p>Dribbble</p>
-              </nuxt-link>
-            </div>
-            <div class="mr-4 hover:text-accent mb-4">
-              <nuxt-link
-                to="https://github.com/Ashraful-malik"
-                target="_blank"
-                class="social_link"
-                ><p>Github</p>
-              </nuxt-link>
-            </div>
-            <div class="hover:text-accent mb-4">
-              <nuxt-link
-                to="https://twitter.com/Ashraful__malik"
-                target="_blank"
-                class="social_link"
-                ><p>Twitter</p>
-              </nuxt-link>
+                :to="link.link"
+                class="uppercase hover:text-gray-50 text-sm font-medium"
+                >{{ link.name }}</nuxt-link
+              >
             </div>
           </div>
         </div>
+        <div class="social_contact">
+          <p class="text-gray-70 font-semibold uppercase">Social link</p>
+          <div class="gap-2 mt-3 flex-wrap">
+            <div
+              class="link mt-2"
+              v-for="(link, index) in socialLinks"
+              :key="index"
+            >
+              <a
+                :href="link.link"
+                target="_black"
+                class="flex items-center hover:text-gray-50 text-sm text-gray-80"
+              >
+                <span class="uppercase font-medium">{{ link.name }}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="email">
+          <p class="text-gray-70 font-semibold uppercase">Email</p>
+          <a
+            :href="email"
+            target="_black"
+            class="flex items-center flex-wrap mt-3 hover:text-gray-50"
+          >
+            <div class="text-base text-gray-80 hover:text-gray-50">
+              {{ email }}
+            </div>
+          </a>
+        </div>
       </div>
+
+      <!-- copy rights -->
       <div class="copyright absolute bottom-0 left-0 right-0 mr-0 ml-0 pb-4">
-        <div class="text-sm text-gray-500 flex items-center justify-center">
-          <p>©2023 Ashraful Malik | Build with</p>
+        <div class="text-sm text-gray-100 flex items-center justify-center">
+          <p class="mr-2">©2023 Ashraful Malik | Build with</p>
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -116,3 +83,19 @@
   </div>
 </template>
 <style></style>
+<script setup>
+const email = ref("ashraful.inbox@gmail.com");
+const pageLinks = ref([
+  { name: "Home", link: "/" },
+  { name: "Projects", link: "/#project" },
+  { name: "About", link: "/#about" },
+  { name: "Contact", link: "/#contact" },
+  { name: "Blogs", link: "/blog" },
+]);
+const socialLinks = ref([
+  { name: "Instagram", link: "https://www.instagram.com/uiwebbyte/" },
+  { name: "Twitter", link: "https://twitter.com/Ashraful__malik" },
+  { name: "Codepen", link: "https://codepen.io/ashraful404" },
+  { name: "Linkdin", link: "https://www.linkedin.com/in/ashraful-malik/" },
+]);
+</script>

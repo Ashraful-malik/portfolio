@@ -19,6 +19,7 @@
     "nuxt-gtag": "^0.5.7"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.18"
+    "@heroicons/vue": "^2.0.18",
+    "@nuxt/image": "^1.0.0"
   }
 }
