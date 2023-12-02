@@ -10,8 +10,8 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
   // image: {
-  //   // format: ["webp"],
-  //   // dir: "assets/images", // The directory where your images are stored
+  //   format: ["webp"],
+  //   dir: "public/projectImages", // The directory where your images are stored
   // },
 
   gtag: {

@@ -8,12 +8,10 @@
           :key="project.id"
         >
           <div class="project-img w-full h-4/5 overflow-hidden cursor-pointer">
-            <NuxtImg
+            <img
               :src="project.img"
-              placeholder
-              format="webp"
-              fit="cover"
-              class="img w-full"
+              :alt="project.name"
+              class="img w-full bg-cover"
             />
           </div>
           <div class="project-content pt-8 flex items-center justify-between">
